@@ -1,10 +1,71 @@
-.chess-heading {
-    font-family: cursive;
-    font-size: 85px;
-}
+body {
+    background-image: url("file:blog-background.png"); /* Replace with your image filename */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: top left; /* Start image at top left corner */
+    background-size: auto auto; /* Maintain aspect ratio*/
+  }  
 
-.chess-content {
-    font-family: cursive;
-    font-size: 50px;
-    margin: 20px;
-}
+  @font-face {
+    font-family: myFont;
+    src: url(Cat\ Comic.ttf);
+  }
+
+  .chess-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: myFont;
+    font-size: 85px;
+    margin-top: 50px;
+  }
+
+  .chess-elo {
+    margin-top: 10px;
+    display: flex; /* Wrap content in a flex container */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-top: 100px;
+    font-family: myFont;
+    color: white;
+  }
+
+  .chess-content {
+    /* display: flex; Wrap buttons in a flex container */
+    justify-content: space-between; /* Distribute buttons evenly (adjust later) */
+    font-family: myFont;
+  }
+  .chess-button {
+    height: 70px;
+    width: 150px;
+    display: inline-block;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    padding: 50px 150px;
+    text-align: center; /* Center button content horizontally */
+    margin: 20px; /* Remove or adjust margin if needed */
+    margin-top: 20px;
+    border-radius: 30px;
+  }
+  
+  .chess-button a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .chess-button p {
+    font-size: smaller;
+    margin: 5px 0;
+    color: #666;
+    cursor: default;
+  }
+  
+  .chess-button:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+    border: 10px solid greenyellow;
+    transform: scale(1.1);
+  }
+  

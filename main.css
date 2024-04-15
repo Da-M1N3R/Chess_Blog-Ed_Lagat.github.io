@@ -1,5 +1,5 @@
 body {
-    background-image: url("file:blog-background.png"); /* Replace with your image filename */
+    background-image: url("blog-background.png"); /* Replace with your image filename */
     background-repeat: no-repeat; /* Prevent repeating the image */
     background-position: top left; /* Start image at top left corner */
     background-size: auto auto; /* Maintain aspect ratio*/

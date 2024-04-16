@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat; /* Prevent repeating the image */
     background-position: top left; /* Start image at top left corner */
     background-size: auto auto; /* Maintain aspect ratio*/
+    background-attachment: fixed;
   }  
 
   @font-face {

@@ -30,42 +30,33 @@ body {
     color: white;
   }
 
-  .chess-content {
-    /* display: flex; Wrap buttons in a flex container */
-    justify-content: space-between; /* Distribute buttons evenly (adjust later) */
+  /* buttons - start here */
+
+  .button-container {
+    /* display: flex; */
+    justify-content: space-between;
     font-family: myFont;
+    /* overflow: hidden; */
   }
   .chess-button {
-    height: 70px;
-    width: 150px;
-    display: inline-block;
-    background-color: #ddd;
-    border: 1px solid #ccc;
-    padding: 50px 150px;
-    text-align: center; /* Center button content horizontally */
-    margin: 20px; /* Remove or adjust margin if needed */
-    margin-top: 20px;
+    height: 170px;
+    width: 450px;
+    margin: 50px 20px;
+    font-family: myFont;
+    font-size: 50px;
+    padding: 10px 20px;
+    text-align: center;
     border-radius: 30px;
-  }
-  
-  .chess-button a {
-    font-size: 30px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .chess-button p {
-    font-size: smaller;
-    margin: 5px 0;
-    color: #666;
-    cursor: default;
-  }
-  
-  .chess-button:hover {
-    background-color: #eeeeee;
     cursor: pointer;
+  }
+  .chess-button p {
+    font-size: 20px;
+    color: #666;
+  }
+  .chess-button:hover{
+    background-color: #eeeeee;
     border: 10px solid greenyellow;
     transform: scale(1.1);
   }
-  
+
+ 

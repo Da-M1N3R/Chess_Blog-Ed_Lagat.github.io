@@ -20,15 +20,12 @@ body {
     font-size: 85px;
     margin-top: 50px;
   }
-
-  .chess-elo {
-    margin-top: 10px;
-    display: flex; /* Wrap content in a flex container */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    margin-top: 100px;
-    font-family: myFont;
-    color: white;
+  .player {
+    font-size: 80px;
+  }
+  .prime {
+    color: greenyellow;
+    font-size: 90px;
   }
 
   /* buttons - start here */
@@ -60,4 +57,30 @@ body {
     transform: scale(1.1);
   }
 
- 
+  .chess-plans {
+    font-family: myFont;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+  }
+  .imp {
+    color: aqua;
+  }
+  .red {
+    color: red;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: myFont;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 1000px;
+  }
+  .yellow {
+    color: yellow;
+    font-size: 50px;
+  }
